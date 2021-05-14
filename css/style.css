@@ -1,0 +1,141 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #fff;
+}
+.container{
+    margin: 0 auto;
+    width: 79%;
+    
+}
+/*----------HEADER---------*/
+.header__video{
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 689px;
+    z-index: -100;
+    overflow: hidden;
+}
+.header__wrapper{
+    width: 1200px;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+.header{
+    background: url('../img/fon-mask.png') no-repeat top right;
+    min-height: 750px;
+}
+.navbar{
+    height: 40px;
+    margin-top: 60px;
+    background-color: darkgray;
+}
+.header__content{
+    width: 509px;
+    height: 208px;
+    background-color:darkgray;
+    margin-top: 204px;
+    margin-bottom: 235px;
+}
+
+/*----------SECTION-----------*/
+.section__wrapper{
+    width: 1200px;
+    margin: 0 auto;
+    border: 1px solid black;
+    position: relative;
+}
+/*----------Products-----------*/
+.products .section__wrapper{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:wrap ;
+    padding-top: 65px;
+    padding-bottom: 65px;
+}
+.products__item{    
+    width: 380px;
+    height: 398px;
+    background-color:darkgray;    
+}
+/*-------advantades----------*/
+.advantades .section__wrapper{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:wrap ;    
+    padding-top: 160px;
+    padding-bottom: 65px;
+}
+.advantades__item{    
+    width: 376px;
+    height: 102px;
+    margin-top: 70px;
+    background-color:darkgray;    
+}
+/*-------Samples---------*/
+.samples .slider__list{
+    height: 278px;
+    background-color: darkgray;
+}
+
+.slider__button{
+    position: absolute;
+    top: 50%;
+}
+.slider__button--prev{
+    left: -50px;
+}
+.slider__button--next{
+    right: -50px;
+}
+/*--------footer--------*/
+.footers .section__wrapper{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:wrap ;    
+    padding-bottom: 65px;
+}
+.footers__item{    
+    width: 1200px;
+    height: 123px;
+    background-color:darkgray;    
+}
+/*---------description-----------*/
+.description__content{
+    width: 523px;
+    height: 434px;
+    background-color:darkgray;
+    margin-top: 328px;
+    margin-left: auto;
+    margin-bottom: 378px;
+}.slider1__button{
+    position: absolute;
+    top: 200px;
+}
+.slider1__button--prev{
+    right: 480px;
+}
+.slider1__button--next{
+    right: 430px;
+}
+.table-row{
+    width: 100%;
+   
+}
+.table-item{
+    width: 33%;
+}
+.table-item-title{
+    display: flex;
+    align-items: center;
+}
+.table-item{
+    text-align: start;
+}
+h3{
+    margin-left: 15px;
+}
